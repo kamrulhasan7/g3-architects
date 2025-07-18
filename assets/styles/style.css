@@ -1,0 +1,107 @@
+/* google font add  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* variable color  */
+:root {
+    --primaryColor: #FF900E;
+    --dark1: #131313;
+    --dark2: #424242;
+    --dark3: #727272;
+    --headerFooter:rgba(255, 143, 14, .1);
+}
+
+/* universal select  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans";
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* shear selector */
+section {
+    max-width: 1440px;
+    margin: 4rem auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/* Header section style */
+header {
+    width: 100%;
+    background: var(--headerFooter);
+    padding-top: 2.8rem;
+}
+
+nav {
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo h5 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--dark1);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: var(--dark2);
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+
+/* menu design  */
+.menu{
+    display: none;
+}
+.toggle{
+    height: 2px;
+    width: 20px;
+    margin-bottom: 5px;
+    background-color: var(--dark3);
+}
+.toggle2{
+    width: 15px;
+    margin-left: 5px;
+}
+
+/* hero section style  */
+.hero{
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--dark1);
+    margin-bottom: 2rem;
+}
+
+button{
+    font-size: 1.25rem;
+    font-weight: 600;
+    background: var(--primaryColor);
+    color:#ffffff;
+    padding: 1.25rem 1.5rem;
+    border: none;
+    border-radius: .5rem;
+}
+
+.hero img{
+    margin-block: 3.1rem;
+}

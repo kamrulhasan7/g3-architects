@@ -1,0 +1,43 @@
+/* responsive 1440px = 90rem */
+@media screen and (max-width:90rem) {
+    nav{
+        max-width: 90%;
+    }
+    section{
+        max-width: 90%;
+    }
+}
+
+/* responsive 1024px = 64rem  */
+@media screen and (max-width:64rem) {
+    html{
+        font-size: 80%;
+    }
+    .logo h5 {
+        font-size: 2.5rem;
+    }
+}
+
+/* responsive 768px = 48rem  */
+@media screen and (max-width:48rem) {
+    html{
+        font-size: 70%;
+    }
+}
+
+
+/* responsive 576px = 36rem  */
+@media screen and (max-width:36rem) {
+    html{
+        font-size: 50%;
+    }
+    nav ul{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .logo h5 {
+        font-size: 2.5rem;
+    }
+}
