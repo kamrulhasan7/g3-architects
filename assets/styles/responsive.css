@@ -29,7 +29,7 @@
 /* responsive 576px = 36rem  */
 @media screen and (max-width:36rem) {
     html{
-        font-size: 50%;
+        font-size: 60%;
     }
     nav ul{
         display: none;
@@ -37,7 +37,16 @@
     .menu{
         display: block;
     }
+    .hero h1{
+        font-size: 3rem;
+    }
     .logo h5 {
         font-size: 2.5rem;
+    }
+
+    /* feature section responsive */
+    .feature-container{
+        flex-direction: column;
+        text-align: center;
     }
 }

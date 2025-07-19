@@ -105,3 +105,48 @@ button{
 .hero img{
     margin-block: 3.1rem;
 }
+
+
+/* our feature section style */
+.feature-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:4.5rem ;
+}
+
+.feature-image{
+    flex-basis: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+
+.feature-content{
+    flex-basis: 50%;
+}
+
+h2{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--dark1);
+    margin-bottom: 1.5rem;
+}
+
+.dark3{
+    color: var(--dark3);
+    font-weight: 400;
+}
+.primary{
+    color: var(--primaryColor);
+}
+
+p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--dark3);
+}
+
+.feature-content p{
+    margin-bottom: 2rem ;
+}
