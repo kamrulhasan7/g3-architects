@@ -6,6 +6,10 @@
     section{
         max-width: 90%;
     }
+
+    .all-feature-image img{
+        max-height: 100%;
+    }
 }
 
 /* responsive 1024px = 64rem  */
@@ -16,12 +20,29 @@
     .logo h5 {
         font-size: 2.5rem;
     }
+        .experience{
+        padding: 2rem;
+        left: -50px;
+        bottom: -50px;
+    }
+    .all-feature{
+        align-items: center;
+    }
 }
 
 /* responsive 768px = 48rem  */
 @media screen and (max-width:48rem) {
     html{
         font-size: 70%;
+    }
+    
+    .experience{
+        padding: 2rem;
+        left: -30px;
+        bottom: -50px;
+    }
+    .experience h1{
+        font-size: 3rem;
     }
 }
 
@@ -31,6 +52,8 @@
     html{
         font-size: 60%;
     }
+
+    /* header section responsive */
     nav ul{
         display: none;
     }
@@ -46,7 +69,23 @@
 
     /* feature section responsive */
     .feature-container{
+        max-width:85%;
         flex-direction: column;
         text-align: center;
+    }
+
+        .all-feature{
+        flex-direction: column;
+    }
+.all-feature-image{
+            text-align: center;
+
+}
+    .experience{
+        margin: auto;
+        max-width: 200px;
+        position: static;
+        padding: 2rem;
+
     }
 }
