@@ -1,91 +1,122 @@
 /* responsive 1440px = 90rem */
 @media screen and (max-width:90rem) {
-    nav{
-        max-width: 90%;
-    }
-    section{
+    nav {
         max-width: 90%;
     }
 
-    .all-feature-image img{
+    section {
+        max-width: 90%;
+    }
+
+    .all-feature-image img {
         max-height: 100%;
     }
 }
 
 /* responsive 1024px = 64rem  */
 @media screen and (max-width:64rem) {
-    html{
+    html {
         font-size: 80%;
     }
+
     .logo h5 {
         font-size: 2.5rem;
     }
-        .experience{
+
+    .experience {
         padding: 2rem;
         left: -50px;
         bottom: -50px;
     }
-    .all-feature{
+
+    .all-feature {
         align-items: center;
+    }
+
+    .fact-item{
+        max-width: 200px;
+    }
+    .fact-item h2{
+        font-size: 2.2rem;
     }
 }
 
 /* responsive 768px = 48rem  */
 @media screen and (max-width:48rem) {
-    html{
+    html {
         font-size: 70%;
     }
-    
-    .experience{
+
+    .experience {
         padding: 2rem;
         left: -30px;
         bottom: -50px;
     }
-    .experience h1{
+
+    .experience h1 {
         font-size: 3rem;
+    }
+
+    .fact-item-container{
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+    }
+    .fact-item{
+        width: 240px;
     }
 }
 
 
 /* responsive 576px = 36rem  */
 @media screen and (max-width:36rem) {
-    html{
+    html {
         font-size: 60%;
     }
 
     /* header section responsive */
-    nav ul{
+    nav ul {
         display: none;
     }
-    .menu{
+
+    .menu {
         display: block;
     }
-    .hero h1{
+
+    .hero h1 {
         font-size: 3rem;
     }
+
     .logo h5 {
         font-size: 2.5rem;
     }
 
     /* feature section responsive */
-    .feature-container{
-        max-width:85%;
+    .feature-container {
+        max-width: 85%;
         flex-direction: column;
         text-align: center;
     }
 
-        .all-feature{
+    .all-feature {
         flex-direction: column;
     }
-.all-feature-image{
-            text-align: center;
 
-}
-    .experience{
+    .all-feature-image {
+        text-align: center;
+
+    }
+
+    .experience {
         margin: auto;
         max-width: 200px;
         position: static;
         padding: 2rem;
 
+    }
+
+
+    .fact-item-container{
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
     }
 }
