@@ -274,3 +274,20 @@ p{
     margin-top: 3rem;
     filter: grayscale(1);
 }
+
+
+/* footer section style */
+footer{
+    max-width: 1440px;
+    margin: 8rem auto;
+    padding: 2.6rem 2rem;
+    border-radius: 8px;
+    text-align: center;
+    background: var(--headerFooter);
+}
+
+footer p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--dark2);
+}

@@ -3,8 +3,10 @@
     nav {
         max-width: 90%;
     }
-
-    section {
+    main, footer{
+        max-width: 90%;
+    }
+    .hero{
         max-width: 90%;
     }
 
@@ -125,6 +127,12 @@
         gap: 3rem;
     }
     .sponsor-image img{
-        width: 40%;
+        max-width: 40%;
+
+    }
+
+    footer{
+        margin: 2rem auto;
+        padding: 1rem;
     }
 }
