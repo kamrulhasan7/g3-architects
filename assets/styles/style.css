@@ -258,3 +258,19 @@ p{
     font-weight: 600;
     margin: .6rem 0 0 .3rem;
 }
+
+
+/* our sponsor section  */
+.sponsor{
+    text-align: center;
+}
+
+.sponsor-image{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    margin-top: 3rem;
+    filter: grayscale(1);
+}
